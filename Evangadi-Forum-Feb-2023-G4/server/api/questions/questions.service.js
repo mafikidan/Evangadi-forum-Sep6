@@ -17,7 +17,7 @@ const questionService = {
   },
   getAllQuestions: (callback) => {
     connection.query(
-      `SELECT * FROM question  ORDER BY inserted_datetime DESC`,
+      `SELECT * FROM question ORDER BY inserted_datetime DESC`,
       [],
       (err, result) => {
         if (err) {

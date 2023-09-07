@@ -13,11 +13,11 @@ ul {
     color: white;
    text-align: center;
 }
-.cir_br > div{
+/* .cir_br > div{
     text-align: center;
     border-radius: 250%;
     border: 1px solid white;
-}
+} */
 .col-2 svg {
     font-size: 38px;
     text-align: center;
@@ -41,4 +41,7 @@ ul {
 }
 .row ul li {
     color: #D5D5D599;
+}
+.footer_dwn >div .row{
+    display: block;
 }

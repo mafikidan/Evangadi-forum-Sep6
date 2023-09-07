@@ -20,6 +20,7 @@ const Footer = () => {
           
 
         </div>
+        {/* <div className=''> */}
         <div className="row">
           <h4 className='footer_t'>Useful Link</h4>
           <ul>
@@ -35,7 +36,8 @@ const Footer = () => {
             <li>support@evangadi.com</li>
             <li>+1-202-386-2702</li>
           </ul>
-        </div>
+          </div>
+          {/* </div> */}
       </div>
 
 
