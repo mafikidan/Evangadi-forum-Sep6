@@ -52,7 +52,7 @@ const SingleQuestion = () => {
   try {
     const response = await axios.get(`/api/questions/${params.id}`); // Remove the ":" before `${params.id}`
     setQuestion(response.data.data);
-    console.log(response.data.data);
+    // console.log(response.data.data);
 
     
     // Call answersByQuestionId with the fetched data, assuming it takes a single argument
@@ -75,7 +75,7 @@ const SingleQuestion = () => {
   return (
     <div className="container">
       <h2>Question</h2>
-      <p>{question?.question_id}</p>
+      {/* <p>{question?.question_id}</p> */}
       <h4>{question?.question}</h4>
        <h5>{question?.category}</h5>
       <h5>{question?.question_description}</h5>
