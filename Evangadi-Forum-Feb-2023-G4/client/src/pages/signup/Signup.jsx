@@ -55,7 +55,7 @@ const [conPassword, setConPassword] = useState(false);
        // console.log(response);
         if (data) { 
           // alert(data.msg);
-          navigate('/login')
+          navigate('/')
         }
         
       } catch (error) {

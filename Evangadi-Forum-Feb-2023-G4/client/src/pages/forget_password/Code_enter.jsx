@@ -88,7 +88,7 @@ const Code_enter = () => {
             <br />
             <button className="btn1">submit</button>
           </form>
-          <Link to="/login" className="a3 a1">
+          <Link to="/" className="a3 a1">
             Signin with email and password
           </Link>
         </div>
